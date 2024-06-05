@@ -11,11 +11,11 @@ Rscript ES.R
 *print_t(M)* looks at the *t*-distribution with *df = 3.5, 5, 8*, *n = 250, 500* and $\beta = 0.99, 0.995$  and prints out the MSE, variance, and bias of both the $\hat{\text{ES}}$ and AA ES estimators through a Monte Carlo simulation of *M* replications.
 *print_gpd(M)*, *print_weibull(M)*, *print_t2(M)*, and *print_gpd2(M)* are defined similarly for other parameters/distributions.
 
-The output for the above functions for *M = 2500* yields results that are re-organized into the tables in the following section.
+The output for the above functions for *M = 2500* can be re-organized into the tables in the following section. Please note that all numerical results will be identical upon each running of the script - this is because seed is set to 001 before each replication.
 
+For full explanations, please see *Report.pdf*
 
-## Results
-This is currently work in progress.
+## Numerical Results
 
 **t-distribution, n = 250**
 |        |                   | MSE $\beta = 0.99$ | MSE $\beta = 0.995$ | MSE $\beta = 0.99$ | MSE $\beta = 0.995$ | MSE $\beta = 0.99$ | MSE $\beta = 0.995$ |

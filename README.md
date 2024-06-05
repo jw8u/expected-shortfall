@@ -13,7 +13,7 @@ Rscript ES.R
 
 The output for the above functions for *M = 2500* can be re-organized into the tables in the following section. Please note that all numerical results will be identical upon each running of the script - this is because seed is set to 001 before each replication.
 
-For full explanations, please see *Report.pdf*
+For full explanations of methodology and results, please see *Report.pdf*
 
 ## Numerical Results
 

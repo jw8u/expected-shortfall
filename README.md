@@ -1,6 +1,6 @@
 # ES
 
-Goal is to replicate some results from a paper via simulations.
+Goal is to replicate some results from a paper via simulations. In particular, the $\hat{\text{ES}}$ (adjusted tail-based normal approximation ES estimator) and the AA (Arithmetic Average ES estimator) are compared. 
 
 ## Usage
 ```
